@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cyan: "hsl(179, 62%, 43%)",
+              yellow: "hsl(71, 73%, 54%)",
+              gray: "hsl(204, 43%, 93%)",
+              blue: "hsl(218, 22%, 67%)",
+              teal: "#4ABEBD",
+            },
+          },
+        },
+      };
+    </script> -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Frontend Mentor | Single Price Grid Component</title>
+  </head>
+  <body class="bg-gray grid place-items-center md:p-0 md:m-0 sm:px-5 sm:my-2 font-custom">
+    <main class="card grid">
+      <div class="bg-white md:p-9 rounded-t-lg sm:p-8 py-8 px-7">
+        <h1 class="text-cyan font-bold text-2xl mb-5">Join our community</h1>
+        <h2 class="text-yellow font-bold mb-2 md:text-lg sm:text-base">
+          30-day, hassle-free money back guarantee
+        </h2>
+        <h3 class="text-blue sm:text-base sm:leading-7 mb-1 text-sm leading-6">
+          <p>
+            <span class="md:block"
+              >Gain access to our full library of tutorials along with expert
+              code reviews.</span
+            >
+            Perfect for any developers who are serious about honing their
+            skills.
+          </p>
+        </h3>
+      </div>
+      <div class="grid md:grid-cols-2 rounded-b-lg">
+        <div class="bg-cyan md:rounded-bl-lg sm:p-9 py-8 px-7 flex flex-col">
+          <h4 class="text-white font-bold text-lg mb-3">
+            Monthly Subscription
+          </h4>
+          <p class="text-white text-4xl font-bold mb-3 flex items-center">
+            &dollar;29
+            <span class="text-gray text-base font-normal ml-3 opacity-60"
+              >per month</span
+            >
+          </p>
+          <h5 class="text-white mb-7 text-base">
+            Full access for less than &dollar;1 a day
+          </h5>
+          <button class="text-white bg-yellow px-3 py-3 rounded font-bold">
+            Sign Up
+          </button>
+        </div>
+        <div
+          class="bg-teal rounded-br-lg sm:p-9 py-6 px-7 sm:rounded-bl-lg md:rounded-bl-none rounded-bl-lg"
+        >
+          <h6 class="text-white font-bold text-lg mb-3">Why Us</h6>
+          <ul class="text-gray md:text-[0.925rem] sm:text-base">
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
