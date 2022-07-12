@@ -10,4 +10,4 @@
 
 #### Single Price Grid Component 
 
-- [(https://frontend-mentor1-hazel.vercel.app/)](https://frontend-mentor1-hazel.vercel.app/)
+- [https://frontend-mentor1-hazel.vercel.app/](https://frontend-mentor1-hazel.vercel.app/)
